@@ -14,7 +14,7 @@ def see_board():
             else:
                 print(Fore.BLUE + "-", end=" ")
         print(Fore.RESET)
-def check(user, start_time):
+def check(user, starting_time):
     str = game[0][0] + game[1][1] + game[2][2] + " " + game[0][2] + game[1][1] + game[2][0]
     for i in range(3):
         str += " " + game[i][0] + game[i][1] + game[i][2] + " " + game[0][i] + game[1][i] + game[2][i]
